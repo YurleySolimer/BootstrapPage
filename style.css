@@ -1,0 +1,113 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar {
+	background-color: rgba(48, 57, 82,1.0); 
+	padding: 1% 0;
+	font-size: 1.2em;
+	
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.nav-link {
+	color: white;
+}
+
+a:hover {
+	color: rgba(209, 204, 192,1.0);
+}
+
+body {
+	background: #E8CBC0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(left, #636FA4, #E8CBC0);
+	background: -o-linear-gradient(left, #636FA4, #E8CBC0);
+	background: linear-gradient(to right, #636FA4, #E8CBC0)  ;  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#home {
+	background: url(img/bg.jpg) no-repeat center fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#home .landing-text h2, h3 {
+	color: white;
+}	
+
+#home .landing-text a {
+	background: rgba(48, 57, 82,1.0); 
+	color: white;
+}	
+
+.padding {
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 70%;
+	vertical-align: middle;
+}
+
+.padding p {
+	text-align: justify;
+	color: black;
+}
+
+.padding h2,h4 {
+	text-align: center;
+	color: black;
+}
+
+.fixed {
+	background: url(img/diseño.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer {
+	background-color: rgba(48, 57, 82,1.0); 
+	width: 100%;
+	color: white;
+	padding: 5%, 5%, 2% 5%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fa {
+	padding: 15px;
+	color: white;
+	font-size: 33px;
+}
+
+.fa:hover	{
+	color: rgba(209, 204, 192,1.0);
+	text-decoration: none;
+}
+
+footer p {
+	color: white;
+	font-size: 20px;
+}
+
+footer img {
+	vertical-align: middle;
+	float: right;
+}
